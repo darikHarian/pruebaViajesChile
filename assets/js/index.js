@@ -1,8 +1,12 @@
+// ALERT ENVIO FORMULARIO
+
 $(document).ready(function(){
     $("#enviarMensaje").on('click', function(){
         alert("El mensaje fue enviado correctamente!");
     });
 });
+
+// TOGGLE P SECCION DESTACADOS
 
 function toggle1() {
 
@@ -51,3 +55,23 @@ function toggle4() {
       x.style.display = "none";
     }
 }
+
+// NAVBAR LINKS
+
+$(document).ready(function() { 
+    $('#href1').on('click', function() {
+        document.querySelector('#top').scrollIntoView({behavior: 'smooth'});
+    });
+    
+    $('#href2').on('click', function() {
+        document.querySelector('#about').scrollIntoView({behavior: 'smooth'});
+    });
+    
+    $('#href3').on('click', function() {
+        document.querySelector('#featured').scrollIntoView({behavior: 'smooth'});
+    });
+    
+    $('#href4').on('click', function() {
+        document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});
+    });
+});
