@@ -29,8 +29,16 @@ font-family: "Raleway", sans-serif;
 
 /* DOCUMENT */
 
+.navbar {
+    background-color: rgba(0,0,0,.7);
+}
+
 /* MD */
 @media only screen and (min-width: 720px) {
+    .navbar {
+        background-color: transparent;
+    }
+    
     .rel-img {
         height: 7.5em;
     }
