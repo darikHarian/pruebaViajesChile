@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif; */
     display: none;
 }
 
+/* (Eliminando espacios en blanco) */
 html, body {
     width: 100%;
     overflow-x: hidden;
